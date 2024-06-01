@@ -1,0 +1,27 @@
+This is the file that contains notes for my portfolio web development project.
+
+This portfolio site is built in the form of an interactive 2D Game.
+
+We are using HTML and CSS for the interactive elements of the page and Kaboom.js for the Game-specific
+part of the implementation.
+
+We are bootstrapping the project with Vite which is a bundler for web apps.
+
+The Vite bundler works by transpiling the javascript that we write into a form of javascript that can
+be rendered by the browser.
+The bundler also does optimizations on the JS code so that it takes the least amount of space.
+
+In the vite.config.js file we specify the base directory of our project so that hosting services can
+find the root directory and then run files relative to it.
+
+We use the "terser" and not the default es-build for minification because of a bug in the Kaboom js implementation
+
+Generally it is more performance intensive when we draw the spritesheet tile by tile so in Kaboom we
+use a normal tile editor for creating the level and export it as an image directly and hence we 'bake'
+the tiles already.
+
+The anims parameter is responsible for the animations that the user sprite does.
+We specify the various animations that we want and we create the corresponding sprites for them.
+Then we specify the sprite number ranges for the animations which in turn will loop through these
+individual sprites and render the animation.
+The speed parameter tells the fps that the animation is done in.
