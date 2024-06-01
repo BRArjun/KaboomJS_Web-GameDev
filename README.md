@@ -1,3 +1,6 @@
+<img src=Portfolio.png></img>
+
+
 # My Portfolio Website
 
 ## Overview
