@@ -48,10 +48,6 @@ Kaboom.js utilizes a sprite sheet for efficient rendering. Instead of drawing ti
 Animations are managed through the `anims` parameter, where you define the sprite numbers for different animations. These animations loop through individual sprites based on the specified range and speed, controlling the frames per second (fps) of the animation.
 
 See the [documentation](https://kaboomjs.com/doc/intro) for more details.
-## Contributing
-
-Contributions are welcome Please feel free to submit pull requests or open issues if you encounter any problems.
-
 ## License
 
 This project is licensed under the MIT License.
