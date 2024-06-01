@@ -5,7 +5,7 @@
 
 ## Overview
 
-This portfolio site is designed as an interactive 2D game, leveraging HTML and CSS for its interactive elements and Kaboom.js for the gaming aspects. The project is bootstrapped using Vite, a modern front-end build tool that optimizes JavaScript for the browser.
+This simple portfolio site is designed as an interactive 2D game, leveraging HTML and CSS for its interactive elements and Kaboom.js for the gaming aspects. The project is bootstrapped using Vite, a modern front-end build tool that optimizes JavaScript for the browser.
 
 ## Technologies Used
 
