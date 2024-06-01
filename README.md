@@ -23,17 +23,17 @@ Ensure you have Node.js installed on your system. You can download it from [Node
 git clone https://github.com/BRArjun/MyPortfolio_WebDev.git
 ```
 2. Move into the directory
-   ``` bash
-   cd MyPortfolio_WebDev
-   ```
+``` bash
+cd MyPortfolio_WebDev
+```
 3. Install dependencies
-   ``` bash
-   npm install
-   ```
+``` bash
+npm install
+```
 4. Run the developmental build
-   ```bash
-   npm run dev
-   ```
+```bash
+npm run dev
+```
 
 ## Configuration
 
