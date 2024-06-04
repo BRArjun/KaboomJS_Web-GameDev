@@ -12,6 +12,7 @@ This simple portfolio site is designed as an interactive 2D game, leveraging HTM
 - **HTML & CSS**: For structuring and styling the interactive elements of the page.
 - **Kaboom.js**: A lightweight, easy-to-use library for creating 2D games in the browser.
 - **Vite**: A build tool that provides fast development server and optimized builds for production.
+- **Tiled**: A level editor tool used for creating the room that you move around.
 
 ## Project Setup
 
